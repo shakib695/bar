@@ -1,0 +1,25 @@
+ol{
+    list-style: none;
+
+
+}
+nav{
+    background: linear-gradient(to right, #dd3e54, #6be585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+}
+nav ol li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ol li a{
+    text-decoration: none;
+    font-family:  cursive;
+    display: block;
+    padding: 8px;
+    color: green;
+    font-size: 20px;
+    transform: 0.3s;
+}
+nav ol li a:hover{
+    background-color: rgba(240, 248, 255, 0.587);    
+}
